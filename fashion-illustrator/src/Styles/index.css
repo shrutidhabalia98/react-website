@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: Mulish;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #565387;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover {
+  color: #417a6e;
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #417a6e;
+  font-weight: 700;
+}
+
+#header h2 {
+  color: #442c0d;
+  font-size: 24px;
+}
+
+#header .btn {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+#header img {
+  text-align: right;
+  margin: 1vh 13vw;
+  height: 400px;
+}
+.card-img-top {
+  height: 300px;
+  size: cover;
+}
+.card {
+  transition: 0.5s ease-in-out;
+}
+.card:hover {
+  box-shadow: 5px 10px 20px 1px #706c6c;
+  transform: scale(1.1);
+}
+
+.footer {
+  margin: 10px 0px;
+}
+
+@media (max-width: 991px) {
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+  #header .header-img {
+    text-align: center;
+  }
+
+  #header .header-img img {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  #header {
+    margin-top: 20px;
+  }
+  #header h1 {
+    font-size: 25px;
+  }
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header .header-img img {
+    height: 250px;
+    width: 70%;
+  }
+  #header .btn {
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+}
